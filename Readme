@@ -1,0 +1,23 @@
+Pasos para ejecutar el programa.
+
+1. Clorar el repositorio
+- git clone <URL_REPOSITORIO>
+
+2. Intalar dependencias
+- pip install -r requirements.txt
+
+3. Correr el servidor
+- uvicorn app:app --reload
+
+
+
+
+
+Definición de las carpetas
+
+- routes
+    Para crear las rutas y funciones.
+- schema
+    Para definir los datos que se enviaran al cliente y recibiran del cliente. (Tipos de datos)
+- config
+    Para configurar las conexion a la BBDD
